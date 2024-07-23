@@ -53,21 +53,50 @@ Two functions, `pause_s1(int n)` and `pause_s2(int n)`, simulate task processing
 - Creates two threads to process tasks concurrently.
 - Displays the total time taken to process all tasks.
 
-## Usage
-
-1. Compile the program:
-    ```bash
-    g++ -std=c++11 -pthread -o task_simulation task_simulation.cpp
-    ```
-
-2. Run the program:
-    ```bash
-    ./task_simulation
-    ```
-
 ## Output
 
 The program will output the task processing details and the total time taken to complete all tasks.
+Here's an example of the output:
+pause of s1
+ 3
+pause of s2
+ 6
+
+9 task1 done
+
+Task 1 took 3.00022 seconds.
+
+11 task2 done
+
+Task 2 took 6.00074 seconds.
+
+
+pause of s1
+ 5
+pause of s2
+ 8
+
+19 task1 done
+
+Task 1 took 5.01563 seconds.
+
+26 task2 done
+
+Task 2 took 8.00059 seconds.
+
+...
+
+============================
+============================
+Tasks done
+They took 334.123 seconds.
+
+In the previous example:
+
+The output alternates between pause_s1 and pause_s2.
+The number after pause of s1 or pause of s2 indicates the random pause duration in seconds.
+The task completion messages show which task was done along with its id and the time it took.
+The final summary displays the total time taken to process all tasks.
 
 ## Note
 - The program uses `pthread` for multithreading support.
