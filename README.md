@@ -98,4 +98,6 @@ The final summary displays the total time taken to process all tasks.
 ## Note
 - The program uses `pthread` for multithreading support.
 
-For further questions, please contact me at ffathy2004@gmail.com.
+---
+
+For further questions, please contact us at [ffathy2004@gmail.com](mailto:ffathy2004@gmail.com) or [abdosaaed749@gmail.com](mailto:ffathy2004@gmail.com). 
