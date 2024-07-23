@@ -1,3 +1,15 @@
+# Queue-based task processing system using multithreading
+
+## Project Documentation
+
+**Contributors:**  
+Fares Fathy  
+Abdulrahman Saeed
+
+**Course:**  
+Algorithms & Data Structures
+
+---
 # Queue-Based Task Simulation
 
 This project simulates a queue-based task processing system using multithreading in C++. The program enqueues tasks with random service times and processes them concurrently using two worker threads.
@@ -58,6 +70,6 @@ Two functions, `pause_s1(int n)` and `pause_s2(int n)`, simulate task processing
 The program will output the task processing details and the total time taken to complete all tasks.
 
 ## Note
-
-- Ensure you have a C++11 compatible compiler.
 - The program uses `pthread` for multithreading support.
+
+For further questions, please contact me at ffathy2004@gmail.com.
